@@ -1,0 +1,16 @@
+# File upload pengguna (jangan simpan di git, tapi pertahankan .htaccess-nya)
+uploads/*
+!uploads/.htaccess
+
+# Dependency bila nanti pakai Composer
+vendor/
+
+# Log & file sementara
+*.log
+*.tmp
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
